@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{mitchell2018web}
+Ryan Mitchell.
+\newblock {\em Web Scraping with Python: Collecting More Data from the Modern
+  Web}.
+\newblock " O'Reilly Media, Inc.", 2018.
+
+\bibitem{bishop2006pattern}
+Christopher~M Bishop.
+\newblock {\em Pattern recognition and machine learning}.
+\newblock springer, 2006.
+
+\bibitem{wagstaff2001constrained}
+Kiri Wagstaff, Claire Cardie, Seth Rogers, Stefan Schr{\"o}dl, et~al.
+\newblock Constrained k-means clustering with background knowledge.
+\newblock In {\em Icml}, volume~1, pages 577--584, 2001.
+
+\bibitem{vanderplas2016python}
+Jake VanderPlas.
+\newblock {\em Python data science handbook: essential tools for working with
+  data}.
+\newblock " O'Reilly Media, Inc.", 2016.
+
+\bibitem{chang2008feature}
+Yin-Wen Chang and Chih-Jen Lin.
+\newblock Feature ranking using linear svm.
+\newblock In {\em Causation and Prediction Challenge}, pages 53--64, 2008.
+
+\bibitem{liaw2002classification}
+Andy Liaw, Matthew Wiener, et~al.
+\newblock Classification and regression by randomforest.
+\newblock {\em R news}, 2(3):18--22, 2002.
+
+\end{thebibliography}

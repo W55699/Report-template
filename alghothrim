@@ -1,0 +1,12 @@
+
+        \begin{algorithm}[ht]
+            \KwData{axis, median: integer}
+            {\bf function} kdtree(pointSet, depth)\\
+            \Begin{
+                axis $\gets$ depth mod k\;
+                median $\gets$ selected based on axis from pointSet\;
+                newNode.location $\gets$ median\;
+                newNode.left $\gets$ kdtree(points {\bf in} pointSet {\bf before} median, depth + 1)\;
+                newNode.right $\gets$ kdtree(points {\bf in} pointSet {\bf after} median, depth + 1)\;
+            }
+        \end{algorithm}

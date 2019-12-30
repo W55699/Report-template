@@ -1,0 +1,39 @@
+
+        
+        \begin{figure}[ht]
+            \floatsetup{floatrowsep = qquad}
+            \begin{floatrow}[2]
+                \ffigbox[\FBwidth]{\caption{One case in clustering.}}{
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            width=\linewidth,
+                            title={$K$-Means Predictions ($k=2$)},
+                            xmin=0,xmax=10,ymin=0,ymax=100,
+                            ]
+                            \node[text=olive,font=\sffamily\bfseries,scale=2] at (3,70) {X};
+                            \addplot+[y filter/.expression={y+50},only marks,mark=*, samples=50,mark
+                            options={fill=olive},domain=1:5] {40*rnd};
+                            \node[text=green,font=\sffamily\bfseries,scale=2] at (7,50){X};
+                            \addplot+[y filter/.expression={y+30},only marks,mark=*,mark options={fill=green},samples=50,domain=5:9] {40*rnd};
+                        \end{axis}
+                    \end{tikzpicture}
+                }
+
+                \ffigbox[\FBwidth]{\caption{Another case in clustering.}}{
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            width=\linewidth,
+                            title={$K$-Means Predictions ($k=2$)},
+                            xmin=0,xmax=10,ymin=0,ymax=100,
+                            ]
+                            \node[text=blue,font=\sffamily\bfseries,scale=2] at (3,30) {X};
+                            \addplot + [y filter/.expression={y+10},only marks, mark=*,samples=50,domain=1:5] {40 * rnd};
+                            \node[text=red,font=\sffamily\bfseries,scale=2] at (7,70){X};
+                            \addplot+[y filter/.expression={y+50},only marks, mark=*,mark options={fill=red},samples=50,domain=5:9] {40*rnd};
+                        \end{axis}
+                    \end{tikzpicture}
+                }
+            \end{floatrow}
+        \end{figure}
+
+

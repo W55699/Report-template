@@ -1,0 +1,30 @@
+\RequirePackage{filecontents}
+\begin{filecontents*}{\jobname.bib}
+@BOOK{DerridaRM,
+  author = {Jacques Derrida},
+  title = {Rückkehr aus Moskau},
+  origtitle = {Moscou aller-retour},
+  editor = {Peter Engelmann},
+  date = {2005},
+  origdate = {1990},
+  translator = {Monika Noll},
+  origlanguage = {french},
+  publisher = {Passagen},
+  location = {Wien},
+}
+\end{filecontents*}
+\documentclass[a4paper]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage[backend=biber]{biblatex}
+
+\addbibresource{\jobname}
+
+\begin{document}
+
+\section{Einleitung}
+Ich zitiere einen Test.\autocite{DerridaRM}   
+
+\printbibliography 
+\end{document}
